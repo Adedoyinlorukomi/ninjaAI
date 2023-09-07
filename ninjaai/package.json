@@ -1,6 +1,7 @@
 {
   "name": "ninjaai",
   "version": "0.1.0",
+  "homepage": "https://yourusername.github.io/ninjaAI",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
