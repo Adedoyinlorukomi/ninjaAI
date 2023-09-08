@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Nunito:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+#get{
+    font-family: 'Poppins';
+}
+#dee{
+    font-family: 'Nunito';
+}
+
+#first{
+    animation: first 2s 2s infinite ease-in-out;
+}
+#second{
+    animation: second 4s 2s 1 ease-in-out;
+}
+
+@keyframes firs {
+    from{background-color: #fdfdfd;}
+    to{background-color: #169DA8;}
+}
+@keyframes second {
+    0%{background-color: #169DA8; transform: translateX(-150px);}
+    50%{background-color: #169DA8; transform: translateX(-100px);}
+    100%{background-color: #fdfdfd; transform: translateX(0px);}
+}
