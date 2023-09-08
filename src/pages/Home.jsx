@@ -62,7 +62,7 @@ const Home = () => {
 
     return(
         <div className="grid grid-cols-5 h-[100vh] sm:grid sm:grid-cols-2">
-                <div className="col-span-3 flex flex-col gap-[47%] pl-16 bg-[#FDFDFD] sm:h-[360px]" id="first">
+                <div className="col-span-3 flex flex-col gap-[47%] pl-16 bg-[#FDFDFD] sm:h-[500px]" id="first">
                     <div class='flex'>
                         <svg width="100" height="100">
                             <circle cx="50" cy="50" r="20" stroke="rgb(153 27 27)" stroke-width="4" fill="none" />
@@ -78,13 +78,13 @@ const Home = () => {
                     </div>
                 </div>
                 
-                <div className="col-span-2 grid grid-rows-5" id="second">
-                    <div className="flex flex-col gap-5 row-span-3 self-end">
+                <div className="col-span-2 grid grid-rows-5 gap-8 sm:h-[520px]" id="second">
+                    <div className="flex flex-col row-span-3 sm:gap-10 self-end">
                         <div className="text-[50px] font-black text-center lg:font-bold sm:font-medium" id="get">Get Started</div>
                         {/* <Link to='/'>Log In</Link>
                         <Link to='/'>Sign Up</Link> */}
                         <div className="flex gap-6 justify-center">
-                            <div className=" text-white px-[80px] py-3 lg:px-[60px] sm:px-[4px] sm:py-1 rounded-lg" id='log'>Log In</div>
+                            <div className=" text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg" id='log'>Log In</div>
                             <div className=" text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg" id='sign'>Sign Up</div>
                         </div>
                     </div>
