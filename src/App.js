@@ -1,12 +1,13 @@
 import './App.css';
-import Home from './pages/Home'
+import './assets/style.css'
+import Index from './components/Home'
 
 
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Index/>
     </div>
   );
 }

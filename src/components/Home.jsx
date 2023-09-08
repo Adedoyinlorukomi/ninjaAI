@@ -1,56 +1,6 @@
 import React from "react";
-import '.././assets/style.css'
+import '../assets/style.css'
 
-let myPromise = new Promise(function(myResolve, myReject) {
-    let x = 0;
-  
-  // The producing code (this may take some time)
-  
-    if (x == 0) {
-      myResolve("OK");
-    } else {
-      myReject("Error");
-    }
-  });
-
-
-setTimeout(function () { myFunction("1"); }, 2000);
-
-function myFunction(value) {
-  document.getElementById("index").innerHTML = value +  "😛";
-}
-
-setTimeout(function () { myFunction1("2"); }, 2200);
-
-function myFunction1(value) {
-  document.getElementById("index").innerHTML = value + "😚";
-}
-
-
-myPromise.then(
-  function(value) {console.log(value);},
-  function(error) {console.log(error);}
-);
-
-const ourPromise = new Promise(function(ourResolve, ourReject) {
-  setTimeout(function(){ ourResolve("ss"); }, 2800);
-});
-
-ourPromise.then(function(value) {
-    document.getElementById("index").innerHTML = value;
-    document.getElementById("index").style.backgroundColor = "white";
-    document.getElementById("index").style.color = "black";
-    document.getElementById("index").style.fontSize = "19px";
-  });
-  
-  let checkPromise = new Promise(function (check1, check2) {
-      
-  setTimeout(function () { check1("Yes"); }, 30000);
-  })
-  
-  checkPromise.then(
-    function(value) {document.getElementById("index1").innerHTML = value;}
-  );
 
 
 const Index = ()=> {
