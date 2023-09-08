@@ -8,18 +8,37 @@
 }
 
 #first{
-    animation: first 2s 2s infinite ease-in-out;
+    animation: first 7s 2s infinite ease-in-out;
 }
 #second{
     animation: second 4s 2s 1 ease-in-out;
 }
 
-@keyframes firs {
-    from{background-color: #fdfdfd;}
-    to{background-color: #169DA8;}
+@keyframes first {
+    0%{background-color: #fdfdfd; color: black;}
+    50%{background-color: #fdfdfd; color: rgb(0, 0, 0);}
+    100%{background-color: black; color: white;}
 }
 @keyframes second {
-    0%{background-color: #169DA8; transform: translateX(-150px);}
-    50%{background-color: #169DA8; transform: translateX(-100px);}
+    0%{background-color: black; transform: translateX(-150px);}
+    50%{background-color: black; transform: translateX(-100px);}
     100%{background-color: #fdfdfd; transform: translateX(0px);}
+}
+
+#sign{
+    animation: sign 3s 3s infinite ease-out;
+}
+#log{
+    animation: log 3s 3s infinite ease-out;
+}
+
+@keyframes log {
+    0%{background-color: rgb(153 27 27 );}
+    50%{background-color: rgb(153 27 27);}
+    100%{background-color: #d18484;}
+}
+@keyframes sign {
+    0%{background-color: #d18484;}
+    50%{background-color: #d18484;}
+    100%{background-color: rgb(153 27 27);}
 }
