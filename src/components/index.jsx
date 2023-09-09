@@ -9,11 +9,11 @@ const texts = [
     "Waiting to hear from you . . .",
     "Thanks for your patronage . . .",
     "At Ninja, we treat you like the king/queen you truly are...",
-    "You can order foods from your favorite restaurants and eateries",
+    "You can order foods from your favorite restaurants and eateries. . .",
     "We give you the best!",
     "Ninja Services are topnotch",
-    "Order with confidence",
-    "Thank you"
+    "Order without fear of getting the wrong product. . .",
+    "Ninja, best in giving best treatments"
   ];
 
 
@@ -62,7 +62,7 @@ const Index = () => {
 
     return(
         <div className="grid grid-cols-5 h-[100vh] lg:grid lg:grid-cols-2">
-                <div className="col-span-3 flex flex-col gap-[47%] pl-16 bg-[#FDFDFD] sm:h-[500px]" id="first">
+                <div className="col-span-3 flex flex-col gap-[35%] pl-16 bg-[#FDFDFD] sm:h-[500px]" id="first">
                     <div class='flex'>
                         <svg width="100" height="100" id='svg'>
                             <circle cx="50" cy="50" r="20" stroke="rgb(153 27 27)" stroke-width="4" fill="none" />
@@ -84,13 +84,13 @@ const Index = () => {
                         {/* <Link to='/'>Log In</Link>
                         <Link to='/'>Sign Up</Link> */}
                         <div className="flex gap-6 justify-center">
-                            <div className=" bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg" id='log'>Log In</div>
-                            <div className="bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg animate-pulse">Sign Up</div>
+                            <div className=" bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg cursor-pointer hover:bg-white hover:text-black">Log In</div>
+                            <div className="bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg cursor-pointer hover:bg-white hover:text-black animate-pulse">Sign Up</div>
                         </div>
                     </div>
         
                     <div className="self-end row-span-2 text-center">
-                        <div class='text-red-800 font-semiold text-[30px]'>
+                        <div class='text-red-800 font-semiold text-[24px]'>
                             <span className="font-[Poppins]">ninJa</span>
                            
                         </div>
