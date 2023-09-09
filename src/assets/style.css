@@ -20,9 +20,9 @@
     100%{background-color: black; color: white;}
 }
 @keyframes second {
-    0%{background-color: black; transform: translateX(-150px);}
-    50%{background-color: black; transform: translateX(-100px);}
-    100%{background-color: #fdfdfd; transform: translateX(0px);}
+    0%{background-color: black; color: white; transform: translateX(-150px);}
+    50%{background-color: black; color: white; transform: translateX(-100px);}
+    100%{background-color: #fdfdfd; color: black; transform: translateX(0px);}
 }
 
 #log{
