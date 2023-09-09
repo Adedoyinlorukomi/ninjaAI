@@ -80,7 +80,7 @@ const Index = () => {
                 
                 <div className="col-span-2 grid grid-rows-5 gap-8 sm:h-[520px]" id="second">
                     <div className="flex flex-col row-span-3 sm:gap-10 self-end">
-                        <div className="text-[50px] font-black text-center lg:font-bold sm:font-medium" id="get">Get Started</div>
+                        <div className="text-[50px] text-center lg:font-bold sm:font-medium" id="get">Get Started</div>
                         {/* <Link to='/'>Log In</Link>
                         <Link to='/'>Sign Up</Link> */}
                         <div className="flex gap-6 justify-center">
