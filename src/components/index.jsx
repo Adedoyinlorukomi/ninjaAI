@@ -95,7 +95,7 @@ const Index = () => {
                            
                         </div>
         
-                        <div className='text-[16px] lg:text-sm sm:text-xs flex gap-1'>
+                        <div className='text-[16px] lg:text-sm sm:text-xs flex gap-1 justify-center'>
                             <span>Terms of use</span>
                             <span>|</span>
                             <span>Privacy Policy</span>
