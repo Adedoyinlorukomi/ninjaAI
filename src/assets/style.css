@@ -25,9 +25,6 @@
     100%{background-color: #fdfdfd; transform: translateX(0px);}
 }
 
-#sign{
-    animation: sign 3s 3s infinite ease-out;
-}
 #log{
     animation: log 0.6s 3s infinite ease-out;
 }
@@ -49,11 +46,7 @@
     100%{transform: translateX(0px);}
 
 }
-@keyframes sign {
-    0%{background-color: #d18484;}
-    50%{background-color: #d18484;}
-    100%{background-color: rgb(153 27 27);}
-}
+
 @keyframes svg {
     0%{ transform: rotateY(0deg);}
     10%{transform: rotateY(40deg); transform: scale(80%);}

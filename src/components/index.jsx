@@ -61,7 +61,7 @@ const Index = () => {
       }, [Former, inMotion]);
 
     return(
-        <div className="grid grid-cols-5 h-[100vh] sm:grid sm:grid-cols-2">
+        <div className="grid grid-cols-5 h-[100vh] lg:grid lg:grid-cols-2">
                 <div className="col-span-3 flex flex-col gap-[47%] pl-16 bg-[#FDFDFD] sm:h-[500px]" id="first">
                     <div class='flex'>
                         <svg width="100" height="100" id='svg'>
@@ -69,7 +69,7 @@ const Index = () => {
                         </svg>
                         <span id="dee" className=" font-bold text-[24px] pt-4">ninJa</span>
                     </div>
-                    <div className='text-5xl lg:text-3xl sm:text-2xl font-bold lg:font-semibold sm:font-medium w-[80%]
+                    <div className='text-5xl lg:text-4xl sm:text-3xl font-bold lg:font-semibold sm:font-medium w-[80%]
                   font-[Montserrat]'>
                          <div>
                             {Motion}
@@ -85,7 +85,7 @@ const Index = () => {
                         <Link to='/'>Sign Up</Link> */}
                         <div className="flex gap-6 justify-center">
                             <div className=" bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg" id='log'>Log In</div>
-                            <div className="bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg" id='sign'>Sign Up</div>
+                            <div className="bg-black text-white px-[80px] py-3 lg:px-[60px] sm:px-[40px] sm:py-1 rounded-lg animate-pulse">Sign Up</div>
                         </div>
                     </div>
         
@@ -95,7 +95,7 @@ const Index = () => {
                            
                         </div>
         
-                        <div className='text-[16px]'>
+                        <div className='text-[16px] lg:text-sm sm:text-xs'>
                             <span>Terms of use</span>
                             <span>|</span>
                             <span>Privacy Policy</span>
